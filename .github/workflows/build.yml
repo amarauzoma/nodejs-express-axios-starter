@@ -1,4 +1,4 @@
-name: Audit Code Base
+name: Build Code Base
  
 on:
 
@@ -38,8 +38,8 @@ jobs:
 
         run: npm install
  
-      - name: Run Audit
+      - name: Run Build
 
-        run: npm audit
+        run: npm ci
 
  
